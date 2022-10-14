@@ -1,0 +1,24 @@
+[27-Jun-2021 03:20:11 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Framework\ObjectManager\ObjectManager::configure() must be of the type array, integer given, called in /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/Environment/Compiled.php on line 108 and defined in /home/caterin1/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php:82
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/Environment/Compiled.php(108): Magento\Framework\ObjectManager\ObjectManager->configure(1)
+#1 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManagerFactory.php(191): Magento\Framework\App\ObjectManager\Environment\Compiled->configureObjectManager(Object(Magento\Framework\Interception\ObjectManager\Config\Compiled), Array)
+#2 /home/caterin1/public_html/pub/errors/processorFactory.php(24): Magento\Framework\App\ObjectManagerFactory->create(Array)
+#3 /home/caterin1/public_html/pub/errors/404.php(10): Magento\Framework\Error\ProcessorFactory->createProcessor() in /home/caterin1/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php on line 82
+[27-Jun-2021 04:02:09 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Framework\ObjectManager\ObjectManager::configure() must be of the type array, integer given, called in /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/Environment/Compiled.php on line 108 and defined in /home/caterin1/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php:82
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/Environment/Compiled.php(108): Magento\Framework\ObjectManager\ObjectManager->configure(1)
+#1 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManagerFactory.php(191): Magento\Framework\App\ObjectManager\Environment\Compiled->configureObjectManager(Object(Magento\Framework\Interception\ObjectManager\Config\Compiled), Array)
+#2 /home/caterin1/public_html/pub/errors/processorFactory.php(24): Magento\Framework\App\ObjectManagerFactory->create(Array)
+#3 /home/caterin1/public_html/pub/errors/404.php(10): Magento\Framework\Error\ProcessorFactory->createProcessor() in /home/caterin1/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php on line 82
+[02-Oct-2021 17:17:45 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Framework\ObjectManager\ObjectManager::configure() must be of the type array, integer given, called in /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/Environment/Compiled.php on line 108 and defined in /home/caterin1/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php:82
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/Environment/Compiled.php(108): Magento\Framework\ObjectManager\ObjectManager->configure(1)
+#1 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManagerFactory.php(191): Magento\Framework\App\ObjectManager\Environment\Compiled->configureObjectManager(Object(Magento\Framework\Interception\ObjectManager\Config\Compiled), Array)
+#2 /home/caterin1/public_html/pub/errors/processorFactory.php(24): Magento\Framework\App\ObjectManagerFactory->create(Array)
+#3 /home/caterin1/public_html/pub/errors/404.php(10): Magento\Framework\Error\ProcessorFactory->createProcessor() in /home/caterin1/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php on line 82
+[02-Oct-2021 17:40:00 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Framework\ObjectManager\ObjectManager::configure() must be of the type array, integer given, called in /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/Environment/Compiled.php on line 108 and defined in /home/caterin1/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php:82
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/Environment/Compiled.php(108): Magento\Framework\ObjectManager\ObjectManager->configure(1)
+#1 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManagerFactory.php(191): Magento\Framework\App\ObjectManager\Environment\Compiled->configureObjectManager(Object(Magento\Framework\Interception\ObjectManager\Config\Compiled), Array)
+#2 /home/caterin1/public_html/pub/errors/processorFactory.php(24): Magento\Framework\App\ObjectManagerFactory->create(Array)
+#3 /home/caterin1/public_html/pub/errors/404.php(10): Magento\Framework\Error\ProcessorFactory->createProcessor() in /home/caterin1/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php on line 82

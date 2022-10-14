@@ -1,0 +1,748 @@
+[21-Jan-2022 04:32:16 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[26-Jan-2022 22:01:43 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[06-Feb-2022 22:27:55 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[06-Feb-2022 22:28:03 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[08-Feb-2022 22:12:14 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[08-Feb-2022 22:12:22 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[15-Feb-2022 20:28:06 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Ajax/Login.php(193): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Controller\Ajax\Login->execute()
+ in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[22-Feb-2022 03:42:41 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[03-Mar-2022 06:57:14 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Ajax/Login.php(193): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Controller\Ajax\Login->execute()
+ in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[03-Mar-2022 21:56:48 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[04-Mar-2022 00:07:25 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[04-Mar-2022 19:06:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/caterin1/public_html/vendor/colinmollenhour/cache-backend-file/File.php on line 686
+[14-Mar-2022 04:01:26 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[17-Mar-2022 09:38:09 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[22-Mar-2022 20:04:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/caterin1/public_html/vendor/magento/framework/View/Element/AbstractBlock.php on line 880
+[29-Mar-2022 02:24:54 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[29-Mar-2022 02:25:00 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[29-Mar-2022 22:41:44 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[04-Apr-2022 00:33:04 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[04-Apr-2022 00:59:35 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[05-Apr-2022 00:28:08 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[05-Apr-2022 00:28:53 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[10-Apr-2022 22:52:48 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[14-Apr-2022 08:21:16 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[14-Apr-2022 15:02:06 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[19-Apr-2022 06:35:54 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[20-Apr-2022 02:32:09 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[20-Apr-2022 22:35:49 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[21-Apr-2022 00:28:40 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[21-Apr-2022 00:28:42 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[21-Apr-2022 00:28:42 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[25-Apr-2022 23:27:50 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[26-Apr-2022 23:34:29 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[27-Apr-2022 04:27:14 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[28-Apr-2022 22:51:48 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[10-May-2022 03:46:45 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[13-May-2022 04:22:11 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[15-May-2022 22:34:25 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[20-May-2022 05:11:06 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[23-May-2022 22:47:52 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[25-May-2022 22:30:46 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[26-May-2022 05:58:12 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[31-May-2022 05:46:07 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[06-Jun-2022 00:50:16 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[06-Jun-2022 11:39:30 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[14-Jun-2022 03:20:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/caterin1/public_html/vendor/colinmollenhour/cache-backend-file/File.php on line 686
+[14-Jun-2022 03:27:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/caterin1/public_html/vendor/colinmollenhour/cache-backend-file/File.php on line 686
+[21-Jun-2022 04:20:17 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[24-Jun-2022 03:28:53 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[28-Jun-2022 00:32:26 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[30-Jun-2022 04:48:29 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[30-Jun-2022 20:19:35 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Ajax/Login.php(193): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Controller\Ajax\Login->execute()
+ in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[04-Jul-2022 00:15:56 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[09-Jul-2022 03:35:45 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[10-Jul-2022 23:05:28 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[10-Jul-2022 23:56:34 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[12-Jul-2022 00:45:12 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Unable to unserialize value, string is corrupted. in /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php:38
+Stack trace:
+#0 [internal function]: Magento\Framework\Serialize\Serializer\Serialize->Magento\Framework\Serialize\Serializer\{closure}(8, 'unserialize(): ...', '/home/caterin1/...', 42, Array)
+#1 /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php(42): unserialize('a:1677:{s:11:"p...', Array)
+#2 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/ConfigLoader.php(79): Magento\Framework\Serialize\Serializer\Serialize->unserialize('a:1677:{s:11:"p...')
+#3 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/Environment/Developer.php(79): Magento\Framework\App\ObjectManager\ConfigLoader->load('global')
+#4 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManagerFactory.php(191): Magento\Framework\App\ObjectManager\Environment\Developer->configureObjectMana in /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php on line 38
+[17-Jul-2022 23:52:55 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[20-Jul-2022 04:26:09 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[21-Jul-2022 22:38:38 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[24-Jul-2022 11:30:47 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Ajax/Login.php(193): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Controller\Ajax\Login->execute()
+ in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[24-Jul-2022 11:31:33 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Ajax/Login.php(193): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Controller\Ajax\Login->execute()
+ in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[24-Jul-2022 11:34:35 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Ajax/Login.php(193): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Controller\Ajax\Login->execute()
+ in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[24-Jul-2022 11:37:41 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Ajax/Login.php(193): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Controller\Ajax\Login->execute()
+ in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[24-Jul-2022 11:45:15 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[26-Jul-2022 11:31:42 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[31-Jul-2022 22:52:24 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[01-Aug-2022 00:23:07 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Ajax/Login.php(193): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Controller\Ajax\Login->execute()
+ in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[01-Aug-2022 04:29:50 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[02-Aug-2022 01:02:13 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Unable to unserialize value, string is corrupted. in /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php:38
+Stack trace:
+#0 [internal function]: Magento\Framework\Serialize\Serializer\Serialize->Magento\Framework\Serialize\Serializer\{closure}(8, 'unserialize(): ...', '/home/caterin1/...', 42, Array)
+#1 /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php(42): unserialize('a:5:{i:0;a:1876...', Array)
+#2 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/ConfigCache.php(52): Magento\Framework\Serialize\Serializer\Serialize->unserialize('a:5:{i:0;a:1876...')
+#3 /home/caterin1/public_html/vendor/magento/framework/ObjectManager/Config/Config.php(282): Magento\Framework\App\ObjectManager\ConfigCache->get('2254508169cbff1...')
+#4 /home/caterin1/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(84): Magento\Framework\ObjectManager\Config\Config->extend(Array)
+#5 /home/caterin1 in /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php on line 38
+[02-Aug-2022 01:09:47 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Unable to unserialize value, string is corrupted. in /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php:38
+Stack trace:
+#0 [internal function]: Magento\Framework\Serialize\Serializer\Serialize->Magento\Framework\Serialize\Serializer\{closure}(8, 'unserialize(): ...', '/home/caterin1/...', 42, Array)
+#1 /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php(42): unserialize('a:5:{i:0;a:1876...', Array)
+#2 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/ConfigCache.php(52): Magento\Framework\Serialize\Serializer\Serialize->unserialize('a:5:{i:0;a:1876...')
+#3 /home/caterin1/public_html/vendor/magento/framework/ObjectManager/Config/Config.php(282): Magento\Framework\App\ObjectManager\ConfigCache->get('2254508169cbff1...')
+#4 /home/caterin1/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(84): Magento\Framework\ObjectManager\Config\Config->extend(Array)
+#5 /home/caterin1 in /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php on line 38
+[04-Aug-2022 03:17:52 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[07-Aug-2022 21:28:52 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[07-Aug-2022 21:28:53 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[08-Aug-2022 23:05:34 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[08-Aug-2022 23:10:15 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[08-Aug-2022 23:34:54 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[11-Aug-2022 01:27:26 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[16-Aug-2022 00:19:41 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[16-Aug-2022 22:59:06 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[19-Aug-2022 01:35:37 UTC] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Magento\GoogleShoppingAds\Plugin\DeleteProductFromSidebar::afterExecute() must be an instance of Magento\Framework\App\Response\Http, instance of Magento\Framework\Controller\Result\Redirect\Interceptor given, called in /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php on line 146 and defined in /home/caterin1/public_html/vendor/magento/google-shopping-ads/Plugin/DeleteProductFromSidebar.php:54
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(146): Magento\GoogleShoppingAds\Plugin\DeleteProductFromSidebar->afterExecute(Object(Magento\Checkout\Controller\Sidebar\RemoveItem\Interceptor), Object(Magento\Framework\Controller\Result\Redirect\Interceptor))
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Checkout\Controller\Sidebar\RemoveItem\Interceptor->Magento\Framework\Interception\{closure}()
+#2 /home/caterin1/public_html/generated/code/Magento in /home/caterin1/public_html/vendor/magento/google-shopping-ads/Plugin/DeleteProductFromSidebar.php on line 54
+[22-Aug-2022 01:59:36 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[22-Aug-2022 11:33:43 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[22-Aug-2022 22:31:07 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[24-Aug-2022 01:50:02 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[25-Aug-2022 00:29:34 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[29-Aug-2022 03:51:44 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[30-Aug-2022 02:02:38 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Unable to unserialize value, string is corrupted. in /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php:38
+Stack trace:
+#0 [internal function]: Magento\Framework\Serialize\Serializer\Serialize->Magento\Framework\Serialize\Serializer\{closure}(8, 'unserialize(): ...', '/home/caterin1/...', 42, Array)
+#1 /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php(42): unserialize('a:5:{i:0;a:1876...', Array)
+#2 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/ConfigCache.php(52): Magento\Framework\Serialize\Serializer\Serialize->unserialize('a:5:{i:0;a:1876...')
+#3 /home/caterin1/public_html/vendor/magento/framework/ObjectManager/Config/Config.php(282): Magento\Framework\App\ObjectManager\ConfigCache->get('2254508169cbff1...')
+#4 /home/caterin1/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(84): Magento\Framework\ObjectManager\Config\Config->extend(Array)
+#5 /home/caterin1 in /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php on line 38
+[31-Aug-2022 01:05:45 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[31-Aug-2022 07:57:46 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[09-Sep-2022 03:34:49 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[11-Sep-2022 23:19:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTypeId() on null in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php:71
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Observer/NewShipmentLoadBefore.php(81): Magento\InventoryShippingAdminUi\Model\IsOrderSourceManageable->execute(Object(Magento\Sales\Model\Order\Interceptor))
+#1 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore->execute(Object(Magento\Framework\Event\Observer))
+#2 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore), Object(Magento\Framework\Event\Observer))
+#3 /home/caterin1/public_html/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php on line 71
+[11-Sep-2022 23:19:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTypeId() on null in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php:71
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Observer/NewShipmentLoadBefore.php(81): Magento\InventoryShippingAdminUi\Model\IsOrderSourceManageable->execute(Object(Magento\Sales\Model\Order\Interceptor))
+#1 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore->execute(Object(Magento\Framework\Event\Observer))
+#2 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore), Object(Magento\Framework\Event\Observer))
+#3 /home/caterin1/public_html/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php on line 71
+[11-Sep-2022 23:21:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTypeId() on null in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php:71
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Observer/NewShipmentLoadBefore.php(81): Magento\InventoryShippingAdminUi\Model\IsOrderSourceManageable->execute(Object(Magento\Sales\Model\Order\Interceptor))
+#1 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore->execute(Object(Magento\Framework\Event\Observer))
+#2 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore), Object(Magento\Framework\Event\Observer))
+#3 /home/caterin1/public_html/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php on line 71
+[11-Sep-2022 23:23:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTypeId() on null in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php:71
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Observer/NewShipmentLoadBefore.php(81): Magento\InventoryShippingAdminUi\Model\IsOrderSourceManageable->execute(Object(Magento\Sales\Model\Order\Interceptor))
+#1 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore->execute(Object(Magento\Framework\Event\Observer))
+#2 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore), Object(Magento\Framework\Event\Observer))
+#3 /home/caterin1/public_html/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php on line 71
+[13-Sep-2022 05:44:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTypeId() on null in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php:71
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Observer/NewShipmentLoadBefore.php(81): Magento\InventoryShippingAdminUi\Model\IsOrderSourceManageable->execute(Object(Magento\Sales\Model\Order\Interceptor))
+#1 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore->execute(Object(Magento\Framework\Event\Observer))
+#2 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore), Object(Magento\Framework\Event\Observer))
+#3 /home/caterin1/public_html/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php on line 71
+[14-Sep-2022 01:49:30 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[18-Sep-2022 23:20:42 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[20-Sep-2022 05:09:35 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Unable to unserialize value, string is corrupted. in /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php:38
+Stack trace:
+#0 [internal function]: Magento\Framework\Serialize\Serializer\Serialize->Magento\Framework\Serialize\Serializer\{closure}(8, 'unserialize(): ...', '/home/caterin1/...', 42, Array)
+#1 /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php(42): unserialize('a:1677:{s:11:"p...', Array)
+#2 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/ConfigLoader.php(79): Magento\Framework\Serialize\Serializer\Serialize->unserialize('a:1677:{s:11:"p...')
+#3 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/Environment/Developer.php(79): Magento\Framework\App\ObjectManager\ConfigLoader->load('global')
+#4 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManagerFactory.php(191): Magento\Framework\App\ObjectManager\Environment\Developer->configureObjectMana in /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php on line 38
+[20-Sep-2022 05:12:26 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: Unable to unserialize value, string is corrupted. in /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php:38
+Stack trace:
+#0 [internal function]: Magento\Framework\Serialize\Serializer\Serialize->Magento\Framework\Serialize\Serializer\{closure}(8, 'unserialize(): ...', '/home/caterin1/...', 42, Array)
+#1 /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php(42): unserialize('a:5:{i:0;a:1876...', Array)
+#2 /home/caterin1/public_html/vendor/magento/framework/App/ObjectManager/ConfigCache.php(52): Magento\Framework\Serialize\Serializer\Serialize->unserialize('a:5:{i:0;a:1876...')
+#3 /home/caterin1/public_html/vendor/magento/framework/ObjectManager/Config/Config.php(282): Magento\Framework\App\ObjectManager\ConfigCache->get('2254508169cbff1...')
+#4 /home/caterin1/public_html/vendor/magento/framework/ObjectManager/ObjectManager.php(84): Magento\Framework\ObjectManager\Config\Config->extend(Array)
+#5 /home/caterin1 in /home/caterin1/public_html/vendor/magento/framework/Serialize/Serializer/Serialize.php on line 38
+[20-Sep-2022 23:44:57 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[21-Sep-2022 02:01:34 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[21-Sep-2022 06:05:12 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[22-Sep-2022 08:18:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTypeId() on null in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php:71
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Observer/NewShipmentLoadBefore.php(81): Magento\InventoryShippingAdminUi\Model\IsOrderSourceManageable->execute(Object(Magento\Sales\Model\Order\Interceptor))
+#1 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore->execute(Object(Magento\Framework\Event\Observer))
+#2 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore), Object(Magento\Framework\Event\Observer))
+#3 /home/caterin1/public_html/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php on line 71
+[22-Sep-2022 08:18:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTypeId() on null in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php:71
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Observer/NewShipmentLoadBefore.php(81): Magento\InventoryShippingAdminUi\Model\IsOrderSourceManageable->execute(Object(Magento\Sales\Model\Order\Interceptor))
+#1 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore->execute(Object(Magento\Framework\Event\Observer))
+#2 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore), Object(Magento\Framework\Event\Observer))
+#3 /home/caterin1/public_html/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php on line 71
+[26-Sep-2022 10:44:41 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[26-Sep-2022 10:45:52 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[26-Sep-2022 10:46:29 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Ajax/Login.php(193): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Customer\Controller\Ajax\Login->execute()
+ in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[27-Sep-2022 01:06:49 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[27-Sep-2022 23:24:33 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Magento\Customer\Model\Session\Interceptor::setCustomerData() must implement interface Magento\Customer\Api\Data\CustomerInterface, null given, called in /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php on line 453 and defined in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php:33
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-customer/Model/Session.php(453): Magento\Customer\Model\Session\Interceptor->setCustomerData(NULL)
+#1 /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php(232): Magento\Customer\Model\Session->setCustomerDataAsLoggedIn(NULL)
+#2 /home/caterin1/public_html/vendor/magento/module-customer/Controller/Account/LoginPost.php(187): Magento\Customer\Model\Session\Interceptor->setCustomerDataAsLoggedIn(NULL)
+#3 /home/caterin1/public_html/generated/code/Magento/Customer/Controller/Account/LoginPost/Interceptor.php(50): Magento\Customer\Con in /home/caterin1/public_html/generated/code/Magento/Customer/Model/Session/Interceptor.php on line 33
+[28-Sep-2022 01:13:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTypeId() on null in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php:71
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Observer/NewShipmentLoadBefore.php(81): Magento\InventoryShippingAdminUi\Model\IsOrderSourceManageable->execute(Object(Magento\Sales\Model\Order\Interceptor))
+#1 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore->execute(Object(Magento\Framework\Event\Observer))
+#2 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore), Object(Magento\Framework\Event\Observer))
+#3 /home/caterin1/public_html/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php on line 71
+[28-Sep-2022 01:15:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTypeId() on null in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php:71
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Observer/NewShipmentLoadBefore.php(81): Magento\InventoryShippingAdminUi\Model\IsOrderSourceManageable->execute(Object(Magento\Sales\Model\Order\Interceptor))
+#1 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore->execute(Object(Magento\Framework\Event\Observer))
+#2 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore), Object(Magento\Framework\Event\Observer))
+#3 /home/caterin1/public_html/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php on line 71
+[28-Sep-2022 03:43:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTypeId() on null in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php:71
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Observer/NewShipmentLoadBefore.php(81): Magento\InventoryShippingAdminUi\Model\IsOrderSourceManageable->execute(Object(Magento\Sales\Model\Order\Interceptor))
+#1 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore->execute(Object(Magento\Framework\Event\Observer))
+#2 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore), Object(Magento\Framework\Event\Observer))
+#3 /home/caterin1/public_html/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php on line 71
+[28-Sep-2022 03:45:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTypeId() on null in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php:71
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Observer/NewShipmentLoadBefore.php(81): Magento\InventoryShippingAdminUi\Model\IsOrderSourceManageable->execute(Object(Magento\Sales\Model\Order\Interceptor))
+#1 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore->execute(Object(Magento\Framework\Event\Observer))
+#2 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore), Object(Magento\Framework\Event\Observer))
+#3 /home/caterin1/public_html/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php on line 71
+[28-Sep-2022 21:23:08 UTC] PHP Fatal error:  Uncaught TypeError: strpos() expects parameter 1 to be string, null given in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php:44
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php(44): strpos(NULL, '</body')
+#1 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(121): Magento\Theme\Controller\Result\JsFooterPlugin->beforeSendResponse(Object(Magento\Framework\App\Response\Http\Interceptor))
+#2 /home/caterin1/public_html/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Response\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#3 /home/caterin1/public_html/generated/code/Magento/Framework/App/Response/Http/Interceptor.php(117): Magento\Framework\App\Response\Http\Interceptor->___callPlugins('sendResponse', Array, Array)
+#4 /home/caterin1/public_html/vendor/magento/framework/App/Bootstrap.php(262): Magento\Framework\App\Response\Http\Intercep in /home/caterin1/public_html/vendor/magento/module-theme/Controller/Result/JsFooterPlugin.php on line 44
+[29-Sep-2022 01:39:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTypeId() on null in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php:71
+Stack trace:
+#0 /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Observer/NewShipmentLoadBefore.php(81): Magento\InventoryShippingAdminUi\Model\IsOrderSourceManageable->execute(Object(Magento\Sales\Model\Order\Interceptor))
+#1 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(88): Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore->execute(Object(Magento\Framework\Event\Observer))
+#2 /home/caterin1/public_html/vendor/magento/framework/Event/Invoker/InvokerDefault.php(74): Magento\Framework\Event\Invoker\InvokerDefault->_callObserverMethod(Object(Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore), Object(Magento\Framework\Event\Observer))
+#3 /home/caterin1/public_html/vendor/magento/framework/Event/Manager.php(66): Magento\Framework\Event\Invoker in /home/caterin1/public_html/vendor/magento/module-inventory-shipping-admin-ui/Model/IsOrderSourceManageable.php on line 71
+[29-Sep-2022 06:55:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/caterin1/public_html/vendor/magento/zendframework1/library/Zend/Db/Select.php on line 690
